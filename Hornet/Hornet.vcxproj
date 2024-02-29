@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="ErrorLogger.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameTimer.cpp" />
     <ClCompile Include="HornetApp.cpp" />
     <ClCompile Include="HornetMenus.cpp" />
@@ -147,13 +148,16 @@
     <ClCompile Include="HtKeyboard.cpp" />
     <ClCompile Include="HtMouse.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rock.cpp" />
     <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="Spaceship.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ErrorLogger.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameTimer.h" />
     <ClInclude Include="HornetApp.h" />
     <ClInclude Include="HornetMenus.h" />
@@ -165,7 +169,9 @@
     <ClInclude Include="HtMouse.h" />
     <ClInclude Include="objecttypes.h" />
     <ClInclude Include="Result.h" />
+    <ClInclude Include="Rock.h" />
     <ClInclude Include="Shapes.h" />
+    <ClInclude Include="Spaceship.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Vector2D.h" />
   </ItemGroup>

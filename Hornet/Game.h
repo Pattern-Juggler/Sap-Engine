@@ -2,6 +2,8 @@
 #include <vector>
 #include "HtAudio.h"
 #include "HtGraphics.h"
+#include "Spaceship.h"
+#include "Rock.h"
 
 // 17/06/2023
 // This class is where you will start programming a game.
@@ -10,13 +12,6 @@
 class Game
 {
 public:
-
-    PictureIndex shipImage;
-    SoundIndex shootSound;
-    SoundIndex thrustSound;
-    Vector2D shipPosition;
-    Vector2D velocity;
-    double angle;
 
     // Use this function for any code when the program starts.
     // This could be empty
@@ -50,5 +45,7 @@ public:
     void EndOfProgram();
 
 private:
+    Spaceship ship;
+    Rock rock;
 };
 
