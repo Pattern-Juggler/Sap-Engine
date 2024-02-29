@@ -170,6 +170,7 @@ public:
 		{
 			answer = answer + 360.0;
 		}
+		return answer;
 	}
 
 };

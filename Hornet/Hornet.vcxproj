@@ -112,6 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -168,6 +169,7 @@
     <ClInclude Include="HtKeyboard.h" />
     <ClInclude Include="HtMouse.h" />
     <ClInclude Include="objecttypes.h" />
+    <ClInclude Include="PlayerMovement.h" />
     <ClInclude Include="Result.h" />
     <ClInclude Include="Rock.h" />
     <ClInclude Include="Shapes.h" />
